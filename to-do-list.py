@@ -31,4 +31,13 @@ def main():
                     tasks[task_index]["done"] = True
                     print("Taks marked as done")
                 else:
-                    
+                    print("invalid tasks number ")
+            
+            elif choice == '4':
+                print("exiting the to-d0-list.")
+                break
+            else:
+                print("Invalid choice. Please try again")
+
+if __name__ == "__main__":
+    main()
